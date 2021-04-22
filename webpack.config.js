@@ -5,7 +5,6 @@ const config = {
         filename: 'bundle.js'
     },
     mode: 'development',
-    plugins: [new WebpackPwaManifest()]
 };
 
 module.exports = config;
