@@ -1,6 +1,11 @@
 # Budget Tracker
 An app for users to keep track of their budget whether they have an internet connection or not.
 
+![screenshot of portfolio website](./public/screenshot-for-readme.png?raw=true "screenshot of website")
+<br>
+[Click here for the deployed website.](https://warm-basin-90513.herokuapp.com/)
+<br>
+<br>
 
 The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
 
