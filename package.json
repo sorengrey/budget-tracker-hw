@@ -5,6 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "npm run webpack",
     "start": "node server.js",
     "lite-server": "lite-server",
     "build": "webpack --watch"
@@ -28,6 +29,7 @@
   },
   "devDependencies": {
     "webpack": "^5.35.0",
-    "webpack-cli": "^4.6.0"
+    "webpack-cli": "^4.6.0",
+    "webpack-pwa-manifest": "^4.3.0"
   }
 }

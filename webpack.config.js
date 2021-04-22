@@ -4,7 +4,8 @@ const config = {
         path: __dirname + '/dist',
         filename: 'bundle.js'
     },
-    mode: 'development'
+    mode: 'development',
+    plugins: [new WebpackPwaManifest()]
 };
 
 module.exports = config;
